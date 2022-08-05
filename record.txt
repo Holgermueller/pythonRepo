@@ -1,3 +1,0 @@
-Readme
-How to write txt files
-Hello

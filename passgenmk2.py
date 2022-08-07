@@ -5,32 +5,40 @@ numbers = "0123456789"
 symbols = "!@#$%^&*_-+="
 length = 0
 
-digitInput = ''
-punctuationInput = ''
+digit_input = ''
+punctuation_input = ''
 
 password = ''
 
 chars = alpha
 
-if digitInput == 'y':
+
+print('How long do you want your password to be?')
+character_lengt_input = input()
+length = int(character_lengt_input)
+
+print('Do you want numbers? y/n')
+digit_input = input()
+
+if digit_input == 'y':
     numbers = "0123456789"
 else:
     numbers = ''
 
-if punctuationInput == 'y':
+
+print('Do you want special characters? y/n')
+punctuation_input = input()
+
+if punctuation_input == 'y':
     symbols = "!@#$%^&*_-+="
 else:
     symbols = ''
 
-print('How long do you want your password to be? y/n')
-characterLengthInput = input()
-length = int(characterLengthInput)
+print(digit_input)
+print(numbers)
+print(punctuation_input)
+print(symbols)
+print(length)
 
-print('Do you want numbers? y/n')
-digitInput = input()
-
-
-print('Do you want special characters? y/n')
-punctuationInput = input()
 
 print(password)

@@ -9,6 +9,7 @@ userTries = 26
 while True:
     print("Guess the secret letter: ")
     print("Hint: The Letter could be capital or lower case!")
+    print("You have a 50/50 chance of winning.")
     print("Attempts remaining: ")
     print(userTries)
     print("Enter QUIT to exit the game.")

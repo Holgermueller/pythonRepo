@@ -1,12 +1,15 @@
 # Rock Paper Scissors
 
-playerChoice = ""
-computerChoice = ""
+import random
+
+
+player_choice = ""
+computer_choice = ""
 
 
 print("Welcome to Rock Paper Scissors")
 print("Select Rock, Paper, or Scissors:")
 
-playerChoice = input()
+player_choice = input()
 
-print("You selected: " + playerChoice)
+print("You selected: " + player_choice)

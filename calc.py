@@ -1,13 +1,7 @@
-from math import *
-
-firstNumber = ''
-secondNumber = ''
-
-
 print('Enter your first number')
-firstNumber = input()
+first_number = input()
 
 print('Enter your second number: ')
-secondNumber = input()
+second_number = input()
 
-print(float(firstNumber) + float(secondNumber))
+print(float(first_number) + float(second_number))

@@ -6,7 +6,7 @@ user_choice = ""
 random_letter = random.choice(string.ascii_letters)
 user_tries = 26
 
-while True:
+while user_choice != random_letter:
     print("Guess the secret letter: ")
     print("Hint: The Letter could be capital or lower case!")
     print("You have a 50/50 chance of winning.")
